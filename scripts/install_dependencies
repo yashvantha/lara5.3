@@ -1,6 +1,4 @@
 #!/bin/bash
-cd /var/www/lara5.3;
 
-sudo composer update;
 
 
