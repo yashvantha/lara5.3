@@ -75,7 +75,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel its 5.3 ok
+                    Laravel its 5.3 ok..with load balancer
                 </div>
 
                 <div class="links">
