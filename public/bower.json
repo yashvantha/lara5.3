@@ -1,0 +1,18 @@
+{
+  "name": "assets",
+  "homepage": "https://github.com/yashvantha/lara5.3",
+  "authors": [
+    "yashvantha <yashvanth.hj@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

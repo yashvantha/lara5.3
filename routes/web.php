@@ -12,5 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::group(['namespace' => 'CustomAuth'], function () {
+		Route::post('/login', 'LoginController@authenticate');
+		Route::post('/register', 'RegisterController@register');
+});
+
+Route::group(['namespace' => 'WebFrontEnd','middleware' => 'auth'], function () {
+		Route::get('/profile', 'ProfileController@index');
+		Route::get('/profile/logout', 'ProfileController@logOut');
+});
+ // Auth::routes();
+
+// Route::get('/home', 'HomeController@index');
+
